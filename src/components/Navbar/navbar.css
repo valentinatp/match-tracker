@@ -1,0 +1,6 @@
+.bg-body-tertiary { background-color: #e30052 !important; }
+.navbar-collapse { justify-content: end; }
+.navbar-nav .nav-item a, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-brand { color: whitesmoke; }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show { font-weight: 600; }
+.dropdown-menu.show a { color: #000; }
+.dropdown-menu[data-bs-popper] { left: -42px; }

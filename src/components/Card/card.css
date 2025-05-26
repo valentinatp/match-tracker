@@ -1,0 +1,24 @@
+.card { margin: 1rem 0;  }
+.card img { width: 50px; height: 50px; }
+.rivals { display: flex; justify-content: center; align-items: center; margin: 1.5rem 0; text-align: center; }
+.rivals p { margin: 1rem 0; font-weight: 600;}
+.versus { font-size: 30px; font-weight: 600; margin: 0 2rem; }
+
+@media (min-width: 425px) { 
+    .card { padding: 1rem 0.5rem; } 
+    .card img { width: 70px; height: 70px; }
+}
+
+@media (min-width: 576px) { 
+    .card { padding: 1rem !important; }
+    .card img { width: 100px; height: 100px; }
+
+}
+
+@media (min-width: 768px) { .card { width: 100%; max-width: 350px; } .card img { width: 70px; height: 70px; } }
+
+@media (min-width: 992px) { .card { max-width: 450px; } }
+
+@media (min-width: 1200px) { .card { max-width: 700px; }  }
+
+@media (min-width: 1400px) { .card { max-width: 650px; } }
