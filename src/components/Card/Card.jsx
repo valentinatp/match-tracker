@@ -3,7 +3,7 @@ const Card = (props) => {
     return (
         <div className="card">
             <div className="card-body">
-                <h5 className="card-title text-center">Fecha 2</h5>
+                <h5 className="card-title text-center">Fecha 3</h5>
                 <h6 className="card-subtitle mb-2 text-body-secondary text-center">Campeonato Todas juntas a la gloria</h6>
                 <div className="rivals">
                     <div className="local-team">
